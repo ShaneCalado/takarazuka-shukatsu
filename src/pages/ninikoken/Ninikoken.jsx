@@ -1,13 +1,15 @@
 import React from 'react';
 import './Ninikoken.css';
 
+import voluntaryGuardianshipImg from '../../assets/images/voluntary-guardianship.png';
+
 export default function VoluntaryGuardianship() {
   return (
     <div className="nin-kouken-container">
       {/* メイン画像 */}
       <div className="main-image">
         <img
-          src="https://takarazuka-shukatsu.jp/wp-content/uploads/2026/07/任意後見7.png"
+          src={voluntaryGuardianshipImg}
           alt="任意後見契約による将来への備え"
         />
       </div>

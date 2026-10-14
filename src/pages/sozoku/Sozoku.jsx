@@ -1,12 +1,14 @@
 import React from 'react';
 import './Sozoku.css';
 
+import inheritanceImg from '../../assets/images/inheritance.png';
+
 export default function Inheritance() {
   return (
     <div className="souzoku-container">
       <div className="souzoku-main-image">
         <img
-          src="https://takarazuka-shukatsu.jp/wp-content/uploads/2026/07/相続9.png"
+          src={inheritanceImg}
           alt="相続手続きに関する相談とサポート"
         />
       </div>

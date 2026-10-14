@@ -1,13 +1,15 @@
 import React from 'react';
 import './Shigojimu.css';
 
+import postDeathAffairsImg from '../../assets/images/post-death-affairs.png';
+
 export default function PostDeathAffairs() {
   return (
     <div className="shigo-jimu-container">
       {/* メイン画像 */}
       <div className="shigo-main-image">
         <img
-          src="https://takarazuka-shukatsu.jp/wp-content/uploads/2026/07/死後事務委任契約-8.png"
+          src={postDeathAffairsImg}
           alt="死後事務委任契約による亡くなった後の手続きへの備え"
         />
       </div>
