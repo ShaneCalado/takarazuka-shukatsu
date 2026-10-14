@@ -1,0 +1,402 @@
+.nin-kouken-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.nin-kouken-container *,
+.nin-kouken-container *::before,
+.nin-kouken-container *::after {
+  box-sizing: border-box;
+}
+
+/* メイン画像 */
+.main-image {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ページタイトル */
+.nin-main-title {
+  margin: 0 0 30px;
+  padding: 16px 18px;
+  background-color: #0d47a1;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* 導入文 */
+.nin-intro {
+  margin-bottom: 35px;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-left: 5px solid #0d47a1;
+  border-radius: 6px;
+}
+
+.nin-intro p {
+  margin: 0;
+}
+
+/* 疑問・悩みセクション */
+.question-box {
+  background-color: #f4f8fb;
+  border: 2px solid #0d47a1;
+  border-radius: 8px;
+  padding: 25px 20px;
+  margin-bottom: 40px;
+}
+
+.question-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0d47a1;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.question-title span {
+  background-color: #d32f2f;
+  color: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.check-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.check-list li::before {
+  content: "☑";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2e7d32;
+  font-size: 20px;
+}
+
+.lead-text {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #0d47a1;
+  margin-top: 15px;
+}
+
+/* セクション見出し */
+.nin-section-title {
+  text-align: center;
+  color: #0d47a1;
+  margin: 45px 0 30px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.nin-section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 12px auto 0;
+  background-color: #0d47a1;
+  border-radius: 2px;
+}
+
+/* 解説コンテンツブロック */
+.reason-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-top: 4px solid #0d47a1;
+  border-radius: 6px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.reason-card h3 {
+  margin-top: 0;
+  color: #0d47a1;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.reason-card h3 .num {
+  background-color: #0d47a1;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.reason-card p {
+  margin-bottom: 0;
+}
+
+.highlight {
+  background: linear-gradient(transparent 60%, #fff59d 60%);
+  font-weight: bold;
+}
+
+/* 流れ */
+.flow-box {
+  margin: 35px 0;
+  padding: 25px;
+  background-color: #fffdf2;
+  border: 2px solid #d6a700;
+  border-radius: 8px;
+}
+
+.flow-box h3 {
+  margin-top: 0;
+  color: #795500;
+  font-size: 21px;
+}
+
+.flow-list {
+  margin-bottom: 0;
+  padding-left: 25px;
+}
+
+.flow-list li {
+  margin-bottom: 10px;
+}
+
+.flow-note {
+  margin-top: 18px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* できること・できないこと */
+.scope-box {
+  margin: 35px 0;
+  padding: 25px;
+  background-color: #f5faf6;
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+}
+
+.scope-box h3 {
+  margin-top: 0;
+  color: #2e7d32;
+  font-size: 21px;
+}
+
+.scope-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.scope-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.scope-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.limit-box {
+  margin: 35px 0;
+  padding: 25px;
+  background-color: #fff5f5;
+  border: 2px solid #c62828;
+  border-radius: 8px;
+}
+
+.limit-box h3 {
+  margin-top: 0;
+  color: #c62828;
+  font-size: 21px;
+}
+
+.limit-list {
+  margin-bottom: 0;
+  padding-left: 23px;
+}
+
+.limit-list li {
+  margin-bottom: 10px;
+}
+
+/* サポート内容 */
+.support-box {
+  margin: 35px 0;
+  padding: 25px;
+  background-color: #f4f8fb;
+  border: 2px solid #0d47a1;
+  border-radius: 8px;
+}
+
+.support-box h3 {
+  margin-top: 0;
+  color: #0d47a1;
+  font-size: 21px;
+}
+
+.support-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.support-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.support-list li::before {
+  content: "●";
+  position: absolute;
+  left: 5px;
+  color: #0d47a1;
+  font-size: 13px;
+}
+
+/* 注意書き */
+.nin-note {
+  margin: 30px 0;
+  padding: 18px 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* お問い合わせ誘導 */
+.cta-section {
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-section h2 {
+  margin-top: 0;
+  color: #0d47a1;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #0d47a1;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 40px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.3s;
+  margin-top: 15px;
+}
+
+.cta-btn:hover {
+  background-color: #1565c0;
+}
+
+/* スマートフォン */
+@media screen and (max-width: 600px) {
+  .nin-kouken-container {
+    padding: 0 8px;
+    font-size: 16px;
+  }
+
+  .nin-main-title {
+    font-size: 22px;
+    padding: 14px 12px;
+  }
+
+  .question-box,
+  .reason-card,
+  .flow-box,
+  .scope-box,
+  .limit-box,
+  .support-box,
+  .cta-section {
+    padding: 20px 16px;
+  }
+
+  .question-title {
+    font-size: 18px;
+  }
+
+  .check-list li {
+    font-size: 16px;
+  }
+
+  .nin-section-title {
+    font-size: 22px;
+  }
+
+  .reason-card h3 {
+    display: block;
+    font-size: 18px;
+  }
+
+  .reason-card h3 .num {
+    display: table;
+    margin: 0 0 8px;
+  }
+
+  .cta-btn {
+    width: 100%;
+    padding: 15px 12px;
+    font-size: 17px;
+  }
+}

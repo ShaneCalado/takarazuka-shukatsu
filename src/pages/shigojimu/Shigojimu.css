@@ -1,0 +1,450 @@
+/* ========================================
+   死後事務委任契約ページ専用
+======================================== */
+.shigo-jimu-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color: #333333;
+  font-size: 17px;
+  line-height: 1.9;
+  box-sizing: border-box;
+}
+
+.shigo-jimu-container *,
+.shigo-jimu-container *::before,
+.shigo-jimu-container *::after {
+  box-sizing: border-box;
+}
+
+/* メイン画像 */
+.shigo-main-image {
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.shigo-main-image img {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* ページタイトル */
+.shigo-main-title {
+  margin: 0 0 28px;
+  padding: 16px 20px;
+  background-color: #0d47a1;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* 導入文 */
+.shigo-intro {
+  margin-bottom: 40px;
+  padding: 23px;
+  background-color: #f5f8fb;
+  border-left: 5px solid #0d47a1;
+  border-radius: 6px;
+}
+
+.shigo-intro p {
+  margin: 0;
+}
+
+/* お悩み部分 */
+.shigo-question-box {
+  margin-bottom: 42px;
+  padding: 0;
+}
+
+.shigo-question-title {
+  margin: 0 0 25px;
+  padding: 18px 20px;
+  background-color: #f3f3f3;
+  border-bottom: 3px solid #0787bd;
+  color: #111111;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.shigo-check-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.shigo-check-list li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 48px;
+  color: #111111;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.shigo-check-list li::before {
+  content: "✓";
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  background-color: #56c98a;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.shigo-question-lead {
+  margin: 30px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shigo-description {
+  margin: 32px 0 0;
+  font-size: 17px;
+  line-height: 2;
+}
+
+/* 詳細を見るボタン */
+.shigo-detail-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #0757a6;
+  color: #ffffff !important;
+  border-radius: 35px;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.shigo-detail-btn:hover {
+  background-color: #0a6bc5;
+  transform: translateY(-2px);
+}
+
+/* セクション見出し */
+.shigo-section-title {
+  margin: 50px 0 30px;
+  color: #0d47a1;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.shigo-section-title::after {
+  content: "";
+  display: block;
+  width: 85px;
+  height: 4px;
+  margin: 12px auto 0;
+  background-color: #0d47a1;
+  border-radius: 2px;
+}
+
+/* 3つの安心 */
+.shigo-reason-card {
+  margin-bottom: 28px;
+  padding: 27px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-top: 5px solid #0d47a1;
+  border-radius: 8px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.07);
+}
+
+.shigo-reason-card h3 {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 15px;
+  color: #0d47a1;
+  font-size: 21px;
+  line-height: 1.6;
+}
+
+.shigo-reason-card h3 .shigo-num {
+  flex-shrink: 0;
+  margin: 3px 12px 0 0;
+  padding: 3px 10px;
+  background-color: #0d47a1;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.shigo-reason-card p {
+  margin: 0;
+}
+
+.shigo-highlight {
+  background: linear-gradient(transparent 60%, #fff59d 60%);
+  font-weight: bold;
+}
+
+/* 依頼できる事務 */
+.shigo-service-box {
+  margin: 38px 0;
+  padding: 27px;
+  background-color: #f5faf6;
+  border: 2px solid #2e7d32;
+  border-radius: 9px;
+}
+
+.shigo-service-box h3 {
+  margin: 0 0 20px;
+  color: #2e7d32;
+  font-size: 22px;
+}
+
+.shigo-service-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shigo-service-list li {
+  position: relative;
+  margin-bottom: 13px;
+  padding-left: 31px;
+}
+
+.shigo-service-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2e7d32;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* 契約までの流れ */
+.shigo-flow-box {
+  margin: 38px 0;
+  padding: 27px;
+  background-color: #fffdf2;
+  border: 2px solid #d6a700;
+  border-radius: 9px;
+}
+
+.shigo-flow-box h3 {
+  margin: 0 0 20px;
+  color: #795500;
+  font-size: 22px;
+}
+
+.shigo-flow-list {
+  margin: 0;
+  padding-left: 26px;
+}
+
+.shigo-flow-list li {
+  margin-bottom: 11px;
+}
+
+/* 制度比較 */
+.shigo-compare-box {
+  margin: 38px 0;
+  padding: 27px;
+  background-color: #f7f9fc;
+  border: 2px solid #78909c;
+  border-radius: 9px;
+}
+
+.shigo-compare-box h3 {
+  margin: 0 0 20px;
+  color: #37474f;
+  font-size: 22px;
+}
+
+.shigo-compare-item {
+  margin-bottom: 20px;
+  padding: 18px;
+  background-color: #ffffff;
+  border-left: 5px solid #0d47a1;
+  border-radius: 5px;
+}
+
+.shigo-compare-item:last-child {
+  margin-bottom: 0;
+}
+
+.shigo-compare-item h4 {
+  margin: 0 0 8px;
+  color: #0d47a1;
+  font-size: 19px;
+}
+
+.shigo-compare-item p {
+  margin: 0;
+}
+
+/* 注意事項 */
+.shigo-note {
+  margin: 32px 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* サポート */
+.shigo-support-box {
+  margin: 38px 0;
+  padding: 27px;
+  background-color: #f4f8fb;
+  border: 2px solid #0d47a1;
+  border-radius: 9px;
+}
+
+.shigo-support-box h3 {
+  margin: 0 0 20px;
+  color: #0d47a1;
+  font-size: 22px;
+}
+
+.shigo-support-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shigo-support-list li {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 31px;
+}
+
+.shigo-support-list li::before {
+  content: "●";
+  position: absolute;
+  left: 4px;
+  color: #0d47a1;
+  font-size: 13px;
+}
+
+/* 問い合わせ */
+.shigo-cta-section {
+  margin-top: 48px;
+  padding: 36px 26px;
+  background-color: #e3f2fd;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.shigo-cta-section h2 {
+  margin: 0 0 16px;
+  color: #0d47a1;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.shigo-cta-section p {
+  margin: 0 0 10px;
+}
+
+.shigo-cta-btn {
+  display: inline-block;
+  margin-top: 21px;
+  padding: 16px 40px;
+  background-color: #0d47a1;
+  color: #ffffff !important;
+  border-radius: 32px;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.18);
+  transition: 0.3s;
+}
+
+.shigo-cta-btn:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+/* スマートフォン */
+@media screen and (max-width: 600px) {
+  .shigo-jimu-container {
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .shigo-main-title {
+    padding: 14px 12px;
+    font-size: 22px;
+  }
+
+  .shigo-question-title {
+    padding: 15px 13px;
+    font-size: 21px;
+  }
+
+  .shigo-check-list li {
+    padding-left: 40px;
+    font-size: 16px;
+  }
+
+  .shigo-question-lead {
+    font-size: 18px;
+  }
+
+  .shigo-section-title {
+    font-size: 22px;
+  }
+
+  .shigo-reason-card,
+  .shigo-service-box,
+  .shigo-flow-box,
+  .shigo-compare-box,
+  .shigo-support-box,
+  .shigo-cta-section {
+    padding: 21px 16px;
+  }
+
+  .shigo-reason-card h3 {
+    display: block;
+    font-size: 18px;
+  }
+
+  .shigo-reason-card h3 .shigo-num {
+    display: table;
+    margin: 0 0 9px;
+  }
+
+  .shigo-detail-btn,
+  .shigo-cta-btn {
+    width: 100%;
+    padding: 15px 12px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .shigo-cta-section h2 {
+    font-size: 21px;
+  }
+}
