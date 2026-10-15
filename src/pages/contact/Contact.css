@@ -1,0 +1,137 @@
+.contact-form-container {
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: #2b2b2b;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.contact-header {
+  background-color: #0d47a1;
+  color: #ffffff;
+  padding: 18px 20px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+.contact-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border: 1px solid #bbdefb;
+  border-top: none;
+  padding: 30px 25px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #0d47a1;
+}
+
+.badge-required {
+  background-color: #d32f2f;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.badge-optional {
+  background-color: #757575;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #90caf9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #0d47a1;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(13, 71, 161, 0.1);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.select-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  margin-right: 6px;
+  transform: scale(1.2);
+}
+
+.submit-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit-btn {
+  background-color: #0d47a1;
+  color: #ffffff;
+  border: none;
+  padding: 16px 45px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.submit-btn:hover {
+  background-color: #1565c0;
+}
+
+.form-note {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+  padding: 12px;
+  background-color: #e3f2fd;
+  border-radius: 6px;
+}

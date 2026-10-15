@@ -2,7 +2,6 @@
 import React from 'react';
 import './Home.css';
 
-// Local assets you previously set up
 import logoImg from '../../assets/images/logo.png';
 import heroPcImg from '../../assets/images/hero-pc.png';
 import heroSpImg from '../../assets/images/hero-sp.png';
@@ -16,109 +15,6 @@ import signatureImg from '../../assets/images/signature.png';
 export default function Home() {
   return (
     <div id="gotop" className="home wp-singular page-template-default page page-id-66 wp-custom-logo wp-theme-syn-ownd wp-child-theme-syn-ownd-child">
-      <header className="hdr">
-        <div className="hdr__catchphrase">
-          <div className="container">宝塚の行政書士です。終活・遺言・相続手続きをサポートしています。</div>
-        </div>
-        <div className="container hdr__detail">
-          <div className="hdr__logo">
-            <h1 className="hdr__logo-ttl">
-              <a className="hdr__logo-link" href="/">
-                <img width="1511" height="232" src={logoImg} className="hdr__logo-img" alt="宝塚終活サポートオフィス/行政書士藤原修事務所" loading="eager" />
-              </a>
-            </h1>
-          </div>
-          <div className="hdr__nav">
-            <nav className="ddmenu" aria-label="グローバルナビゲーション">
-              <div className="ddmenu__inner">
-                <ul id="menu-相続手続き" className="ddmenu__list">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-66 current_page_item">
-                    <a href="/" aria-current="page">ホーム</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/igon/">遺言</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/sozoku/">相続</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/ninikoken/">任意後見</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/shigojimu/">死後事務</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/blog/">ブログ</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/checklist-2/">チェックリスト</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/contact/">お問い合わせ</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <div className="ham-menu-btn js-menu-btn is-md">
-            <button className="ham-menu-btn__button" data-onclick="toggleMenu" aria-label="メニューを開く">
-              <i className="ham-menu-btn__icon icon-menu" aria-hidden="true"></i>
-              <span className="ham-menu-btn__text">Menu</span>
-            </button>
-          </div>
-        </div>
-        <div className="hdr-news">
-          <p className="hdr-news__txtarea">遺言書作成サポート・任意後見契約・死後事務委任契約・相続手続き</p>
-        </div>
-      </header>
-
-      <div className="hdr-fixed js-hdr-fixed">
-        <div className="container hdr-fixed__inner">
-          <div className="hdr-fixed__logo">
-            <p className="hdr__logo-ttl hdr__logo-ttl--fixed">
-              <a className="hdr__logo-link" href="/">
-                <img width="1511" height="232" src={logoImg} className="hdr__logo-img" alt="宝塚終活サポートオフィス/行政書士藤原修事務所" loading="eager" />
-              </a>
-            </p>
-          </div>
-          <div className="hdr__nav">
-            <nav className="ddmenu" aria-label="グローバルナビゲーション">
-              <div className="ddmenu__inner">
-                <ul id="menu-相続手続き-1" className="ddmenu__list">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-66 current_page_item">
-                    <a href="/" aria-current="page">ホーム</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/igon/">遺言</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/sozoku/">相続</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/ninikoken/">任意後見</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/shigojimu/">死後事務</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/blog/">ブログ</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/checklist-2/">チェックリスト</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/contact/">お問い合わせ</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <div className="ham-menu-btn js-menu-btn is-md">
-            <button className="ham-menu-btn__button" data-onclick="toggleMenu" aria-label="メニューを開く">
-              <i className="ham-menu-btn__icon icon-menu" aria-hidden="true"></i>
-              <span className="ham-menu-btn__text">Menu</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div className="ham-menu js-menu">
-        <nav className="ham-menu__inner">
-          <div className="ham-menu-btn is-close js-menu-btn">
-            <button className="ham-menu-btn__button" data-onclick="toggleMenu" aria-label="メニューを閉じる">
-              <i className="ham-menu-btn__icon icon-menu_close" aria-hidden="true"></i>
-              <span className="ham-menu-btn__text">Close</span>
-            </button>
-          </div>
-          <div className="ham-menu__nav">
-            <ul id="menu-相続手続き-2" className="common-nav">
-              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-66 current_page_item">
-                <a href="/" aria-current="page">ホーム</a>
-              </li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/igon/">遺言</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/sozoku/">相続</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/ninikoken/">任意後見</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/shigojimu/">死後事務</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/blog/">ブログ</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/checklist-2/">チェックリスト</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page"><a href="/contact/">お問い合わせ</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div className="ham-menu__bg js-menu-bg"></div>
-      </div>
 
       <div className="mv is-image is-imgsize" style={{ '--mv-height-pc': '70vh', '--mv-height-sp': '50vh' }}>
         <div className="mv__imgarea is-overlay" style={{ '--overlay-color': '#000000' }}>
