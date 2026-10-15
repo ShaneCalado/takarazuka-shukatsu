@@ -12,6 +12,7 @@ import Sozoku from './pages/sozoku/Sozoku';
 import Igon from './pages/igon/Igon';
 import Checklist from './pages/checklist/Checklist'
 import Contact from './pages/contact/Contact';
+import Privacy from './pages/privacy/Privacy';
 
 export default function App() {
   return (
@@ -24,9 +25,10 @@ export default function App() {
         <Route path="/sozoku" element={<Sozoku />} />
         <Route path="/ninikoken" element={<Ninikoken />} />
         <Route path="/shigojimu" element={<Shigojimu />} />
-         <Route path="/checklist" element={<Checklist />} />
+        <Route path="/checklist" element={<Checklist />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="/privacy" element={<Privacy />} />
+        {/* <Route path="*" element={<Privacy />} /> */}
       </Routes>
     </>
   );

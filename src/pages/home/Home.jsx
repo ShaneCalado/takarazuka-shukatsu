@@ -300,7 +300,7 @@ export default function Home() {
             </a>
           </div>
           <div className="ftr-links">
-            <a href="/プライバシーポリシー/">プライバシーポリシー</a>
+            <a href="/privacy/">プライバシーポリシー</a>
           </div>
           <div className="ftr-copy">
             <small>© 宝塚終活サポートオフィス/行政書士藤原修事務所. All Rights Reserved.</small>

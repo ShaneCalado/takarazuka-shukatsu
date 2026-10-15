@@ -1,0 +1,57 @@
+/* src/pages/privacy/Privacy.css */
+
+.privacy-policy {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.privacy-policy h2 {
+  font-size: 26px;
+  color: #0d47a1;
+  border-bottom: 2px solid #0d47a1;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.privacy-policy h3 {
+  font-size: 20px;
+  color: #0d47a1;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy p {
+  margin-bottom: 16px;
+}
+
+.privacy-policy ul {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.privacy-policy li {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .privacy-policy {
+    margin: 30px auto;
+    padding: 0 15px;
+    font-size: 15px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 22px;
+  }
+
+  .privacy-policy h3 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
