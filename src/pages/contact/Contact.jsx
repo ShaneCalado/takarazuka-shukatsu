@@ -12,7 +12,7 @@ export default function Contact() {
         {/* Hidden inputs for FormSubmit configuration */}
         <input type="hidden" name="_subject" value="【ホームページより】お問い合わせが届きました" />
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://your-vercel-domain.com/" />
+        <input type="hidden" name="_next" value="https://https://takarazuka-shukatsu.jp/" />
 
         <div className="form-note">
           遺言・相続・終活に関するご質問やご相談のご予約を承っております。<br />

@@ -270,40 +270,20 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-930d3512 wp-block-columns-is-layout-flex">
-                  <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                    <div className="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-930d3512 wp-block-columns-is-layout-flex">
-                      <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
-                      <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
-                    </div>
+                  {/* Cleanly rebuilt Access / Map section */}
+                  <h2 className="home-section-title"><span>アクセス</span></h2>
+                  <div className="access-map-wrapper">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.373214964272!2d135.3382603108874!3d34.82170777276388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f5dea051aeed%3A0x298975073830e9dd!2z6KGM5pS_5pu45aOr6Jek5Y6f5L-u5LqL5YuZ5omA!5e0!3m2!1sja!2sjp!4v1784592504778!5m2!1sja!2sjp" 
+                      width="100%" 
+                      height="450" 
+                      style={{ border: 0 }} 
+                      allowFullScreen={false} 
+                      loading="lazy" 
+                      referrerPolicy="strict-origin-when-cross-origin">
+                    </iframe>
                   </div>
-                </div>
-
-                <div className="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-930d3512 wp-block-columns-is-layout-flex">
-                  <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                    <h2 id="syn-toc32" className="wp-block-heading">アクセス</h2>
-                  </div>
-                </div>
-
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.373214964272!2d135.3382603108874!3d34.82170777276388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f5dea051aeed%3A0x298975073830e9dd!2z6KGM5pS_5pu45aOr6Jek5Y6f5L-u5LqL5YuZ5omA!5e0!3m2!1sja!2sjp!4v1784592504778!5m2!1sja!2sjp" 
-                  width="600" 
-                  height="450" 
-                  style={{ border: 0 }} 
-                  allowFullScreen={false} 
-                  loading="lazy" 
-                  referrerPolicy="strict-origin-when-cross-origin">
-                </iframe>
-
-                <div className="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-930d3512 wp-block-columns-is-layout-flex">
-                  <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                    <p className="wp-block-paragraph">
-                      <a href="/プライバシーポリシー/" data-type="page" data-id="225">プライバシーポリシー</a>
-                    </p>
-                  </div>
-                  <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
                 </div>
               </article>
             </div>
@@ -311,24 +291,22 @@ export default function Home() {
         </main>
       </div>
 
+      {/* Cleanly rebuilt Footer section */}
       <footer className="ftr">
-        <div className="ftr-info">
-          <div className="container ftr-info__inner">
-            <p className="ftr-info__logo">
-              <a className="ftr-info__logo-link" href="/">
-                <img width="1511" height="232" src={logoImg} className="ftr-info__logo-img" alt="宝塚終活サポートオフィス/行政書士藤原修事務所" loading="eager" />
-              </a>
-            </p>
+        <div className="ftr-inner">
+          <div className="ftr-logo">
+            <a href="/">
+              <img src={logoImg} alt="宝塚終活サポートオフィス/行政書士藤原修事務所" loading="lazy" />
+            </a>
+          </div>
+          <div className="ftr-links">
+            <a href="/プライバシーポリシー/">プライバシーポリシー</a>
+          </div>
+          <div className="ftr-copy">
+            <small>© 宝塚終活サポートオフィス/行政書士藤原修事務所. All Rights Reserved.</small>
           </div>
         </div>
-        <div className="ftr__copy">
-          <small>© 宝塚終活サポートオフィス/行政書士藤原修事務所. All Rights Reserved.</small>
-        </div>
       </footer>
-
-      <p className="return-top">
-        <a href="#gotop" aria-label="ページの先頭へ"></a>
-      </p>
     </div>
   );
 }

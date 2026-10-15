@@ -1,13 +1,13 @@
 import React from 'react';
 import './Igon.css';
-//import willImg from '../../assets/images/will.png';
+import willImg from '../../assets/images/will.png';
 
 export default function Jigon() {
   return (
     <div className="will-container">
       {/* Main Image */}
       <div className="will-main-image">
-       {/*  <img src={willImg} alt="遺言書作成サポート" /> */}
+       <img src={willImg} alt="遺言書作成サポート" />
       </div>
 
       {/* Recovered Intro Section */}
