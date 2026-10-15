@@ -508,3 +508,25 @@ h1{font-size: var(--wp--preset--font-size--xx-large);font-weight: 700;}
     max-width: 280px;
   }
 }
+
+/* ==========================================
+   Mobile Layout Fixes
+========================================== */
+
+/* 1. Kill the legacy white box covering the content */
+.main-content__inner::before {
+  display: none !important;
+}
+
+/* 2. Force the top 4 banner images to stack neatly on mobile */
+@media screen and (max-width: 768px) {
+  .wp-container-core-columns-is-layout-930d3512 {
+    flex-wrap: wrap !important;
+  }
+  
+  .wp-block-column {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}

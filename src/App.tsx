@@ -20,7 +20,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/jigon" element={<Igon />} />
+        <Route path="/igon" element={<Igon />} />
         <Route path="/sozoku" element={<Sozoku />} />
         <Route path="/ninikoken" element={<Ninikoken />} />
         <Route path="/shigojimu" element={<Shigojimu />} />
