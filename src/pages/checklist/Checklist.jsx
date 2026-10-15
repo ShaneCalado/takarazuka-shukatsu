@@ -121,7 +121,7 @@ export default function Checklist() {
       </ul>
 
       <div className="shukatsu-footer-box">
-        <h3 style={{ marginTop: 0, color: '#2e6b4f' }}>行政書士からのワンポイントアドバイス</h3>
+        <h3 style={{ marginTop: 0, color: '#0d47a1' }}>行政書士からのワンポイントアドバイス</h3>
         <p style={{ textAlign: 'left' }}>
           終活チェックリストで「気になる点」や「自分だけでは決められないこと（遺言書の書き方・任意後見・相続手続きなど）」がございましたら、お気軽に当事務所へご相談ください。法律の専門家として、あなたの想いを形にするお手伝いをいたします。
         </p>
