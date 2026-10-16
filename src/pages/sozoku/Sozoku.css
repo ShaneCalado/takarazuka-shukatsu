@@ -217,12 +217,24 @@
 }
 
 .souzoku-flow-list {
+  list-style: none; 
   margin: 0;
-  padding-left: 26px;
+  padding: 0;
 }
 
 .souzoku-flow-list li {
+  position: relative;
   margin-bottom: 11px;
+  padding-left: 31px; 
+}
+
+.souzoku-flow-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #795500; 
+  font-size: 21px;
+  font-weight: bold;
 }
 
 .souzoku-service-box {

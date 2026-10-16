@@ -10,7 +10,7 @@ export default function Jigon() {
        <img src={willImg} alt="遺言書作成サポート" />
       </div>
 
-      {/* Recovered Intro Section */}
+      {/* Intro Section */}
       <h1 className="will-main-title">
         遺言書を作成して、ご自身の想いを確実に残しませんか
       </h1>
@@ -38,7 +38,7 @@ export default function Jigon() {
         </div>
       </div>
 
-      {/* Recovered Worries Section */}
+      {/* Worries Section */}
       <h2 className="will-section-title">このようなお悩みはありませんか</h2>
       <div className="reason-card">
         <ul className="check-list">
@@ -77,7 +77,7 @@ export default function Jigon() {
         </p>
       </div>
 
-      {/* Recovered Merits Section */}
+      {/* Merits Section */}
       <h2 className="will-section-title">遺言書を準備する主なメリット</h2>
       
       <div className="reason-card">
@@ -95,7 +95,7 @@ export default function Jigon() {
         <p>財産の分け方だけでなく、付言事項を活用して、遺言を作成した理由やご家族への気持ちを伝えることもできます。</p>
       </div>
 
-      {/* Recovered Table & Support Info */}
+      {/* Table & Support Info */}
       <h2 className="will-section-title">当事務所では公正証書遺言を中心にサポートします</h2>
       
       <table className="recover-table">

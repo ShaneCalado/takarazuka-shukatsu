@@ -1,4 +1,3 @@
-// src/pages/home/Home.tsx
 import React from 'react';
 import './Home.css';
 
@@ -271,7 +270,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  {/* Cleanly rebuilt Access / Map section */}
+                  {/* Access / Map section */}
                   <h2 className="home-section-title"><span>アクセス</span></h2>
                   <div className="access-map-wrapper">
                     <iframe 
@@ -291,7 +290,7 @@ export default function Home() {
         </main>
       </div>
 
-      {/* Cleanly rebuilt Footer section */}
+      {/* Footer section */}
       <footer className="ftr">
         <div className="ftr-inner">
           <div className="ftr-logo">

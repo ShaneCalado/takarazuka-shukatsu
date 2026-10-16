@@ -196,12 +196,24 @@
 }
 
 .flow-list {
+  list-style: none; 
   margin-bottom: 0;
-  padding-left: 25px;
+  padding-left: 0; 
 }
 
 .flow-list li {
+  position: relative;
   margin-bottom: 10px;
+  padding-left: 31px; 
+}
+
+.flow-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #795500; 
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .flow-note {
@@ -263,12 +275,23 @@
 }
 
 .limit-list {
+  list-style: none;
+  padding-left: 0;
   margin-bottom: 0;
-  padding-left: 23px;
 }
 
 .limit-list li {
+  position: relative;
+  padding-left: 30px;
   margin-bottom: 10px;
+}
+
+.limit-list li::before {
+  content: "●";
+  position: absolute;
+  left: 5px;
+  color: #c62828;
+  font-size: 13px;
 }
 
 /* サポート内容 */

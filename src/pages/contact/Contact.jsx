@@ -9,7 +9,7 @@ export default function Contact() {
       </div>
 
       <form className="contact-form" action="https://formsubmit.co/takarazuka.shukatsu@gmail.com" method="POST">
-        {/* Hidden inputs for FormSubmit configuration */}
+        {/* Inputs for FormSubmit configuration */}
         <input type="hidden" name="_subject" value="【ホームページより】お問い合わせが届きました" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="https://https://takarazuka-shukatsu.jp/" />

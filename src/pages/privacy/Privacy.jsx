@@ -1,4 +1,3 @@
-// src/pages/privacy/Privacy.jsx
 import React from 'react';
 import './Privacy.css';
 
@@ -38,7 +37,6 @@ export default function Privacy() {
       <h3>8. お問い合わせ窓口</h3>
       <p>当事務所の個人情報の取扱いに関するお問い合わせ・ご相談は、下記までご連絡ください。</p>
       
-      {/* Converted HTML styles to React style objects */}
       <div style={{ backgroundColor: '#f9f9f9', padding: '15px', border: '1px solid #ddd', borderRadius: '5px', marginTop: '10px' }}>
         <p style={{ margin: 0, fontWeight: 'bold' }}>宝塚終活サポートセンター</p>
         <p style={{ margin: '5px 0 0 0' }}>（運営：行政書士藤原修事務所）</p>

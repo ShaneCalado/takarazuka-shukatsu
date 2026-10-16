@@ -255,12 +255,24 @@
 }
 
 .shigo-flow-list {
+  list-style: none;
   margin: 0;
-  padding-left: 26px;
+  padding-left: 0;
 }
 
 .shigo-flow-list li {
+  position: relative;
   margin-bottom: 11px;
+  padding-left: 31px; 
+}
+
+.shigo-flow-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #795500; 
+  font-size: 21px;
+  font-weight: bold;
 }
 
 /* 制度比較 */
