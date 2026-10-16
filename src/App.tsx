@@ -11,7 +11,9 @@ import Sozoku from './pages/sozoku/Sozoku';
 import Igon from './pages/igon/Igon';
 import Checklist from './pages/checklist/Checklist'
 import Contact from './pages/contact/Contact';
+import FormSuccess from './pages/form_success/FormSuccess';
 import Privacy from './pages/privacy/Privacy';
+import NotFound from './pages/not_found/NotFound';
 
 export default function App() {
   return (
@@ -26,8 +28,9 @@ export default function App() {
         <Route path="/shigojimu" element={<Shigojimu />} />
         <Route path="/checklist" element={<Checklist />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/form_success" element={<FormSuccess />} />
         <Route path="/privacy" element={<Privacy />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

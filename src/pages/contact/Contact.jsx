@@ -8,11 +8,11 @@ export default function Contact() {
         <h2>無料ご相談・お問い合わせフォーム</h2>
       </div>
 
-      <form className="contact-form" action="https://formsubmit.co/takarazuka.shukatsu@gmail.com" method="POST">
+      <form className="contact-form" action="https://formsubmit.co/6039a8127e3ef2196ac982d149f6d457" method="POST">
         {/* Inputs for FormSubmit configuration */}
         <input type="hidden" name="_subject" value="【ホームページより】お問い合わせが届きました" />
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://https://takarazuka-shukatsu.jp/" />
+        <input type="hidden" name="_next" value="https://https://takarazuka-shukatsu.jp/form_success" />
 
         <div className="form-note">
           遺言・相続・終活に関するご質問やご相談のご予約を承っております。<br />
