@@ -1,13 +1,60 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>takarazuka-shukatsu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d47a1" /> 
+    <title>宝塚終活サポートセンター | 行政書士藤原修事務所</title>
+    <meta name="description" content="宝塚市の行政書士による終活サポート。遺言書作成、相続手続き、任意後見契約、死後事務委任など、ご家族の負担を減らすための生前・死後対策をサポートします。" />
+    
+    <!-- Vite uses absolute paths (/) instead of %PUBLIC_URL% -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph (Facebook, LINE, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://takarazuka-shukatsu.jp/" />
+    <meta property="og:title" content="宝塚終活サポートセンター | 行政書士藤原修事務所" />
+    <meta property="og:description" content="宝塚市の行政書士による終活サポート。遺言書作成、相続手続き、任意後見契約、死後事務委任など、ご家族の負担を減らすための生前・死後対策をサポートします。" />
+    <meta property="og:image" content="https://takarazuka-shukatsu.jp/social_preview.jpg" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="宝塚終活サポートセンター | 行政書士藤原修事務所" />
+    <meta name="twitter:description" content="宝塚市の行政書士による終活サポート。遺言書作成、相続手続き、任意後見、死後事務委任などをサポートします。" />
+    <meta name="twitter:image" content="https://takarazuka-shukatsu.jp/social_preview.jpg" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "宝塚終活サポートセンター",
+        "parentOrganization": {
+          "@type": "LegalService",
+          "name": "行政書士藤原修事務所"
+        },
+        "image": "https://takarazuka-shukatsu.jp/social_preview.jpg",
+        "url": "https://takarazuka-shukatsu.jp/",
+        "telephone": "0797-90-2776",
+        "address": {
+          "@type": "PostalAddress",
+          "postalCode": "665-0847",
+          "streetAddress": "すみれガ丘1-7-1-509",
+          "addressLocality": "Takarazuka",
+          "addressRegion": "Hyogo",
+          "addressCountry": "JP"
+        },
+        "description": "宝塚市の行政書士による終活サポート。遺言書作成、相続手続き、任意後見契約、死後事務委任契約などをトータルでサポートします。",
+        "areaServed": ["Takarazuka", "Hanshin Area", "Hyogo"]
+      }
+  </script>
   </head>
   <body>
-    <div id="app"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Vite requires this script tag to launch your React app -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
